@@ -1,9 +1,262 @@
-body{
-    text-align: center;
-     background-image: url(https://imagens-cdn.canalrural.com.br/wp-content/uploads/chicks-5014152_1280.jpg);
-     background-size: cover;
+* {
+    box-sizing: border-box;
 }
-p{
-    font-size: 30px;
-    color: aqua;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/bg-grecia.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    color: #fff;
+}
+
+
+.conteudo-pagina {
+   
+    padding: 40px 15px 30px;
+}
+
+
+
+
+.topo {
+    background-color: #004ea8;
+    color: #fff;
+    padding: 8px 20px 14px;
+}
+
+
+.links-topo {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.links-topo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+
+
+.marca-topo {
+    position: relative;
+    padding-left: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.marca-topo img {
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    height: auto;
+}
+
+.titulo-marca-topo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+
+
+.titulo-pagina {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+
+
+
+.cartao {
+    background-color: #004ea8;
+    border-radius: 32px;
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 30px 35px;
+}
+
+
+
+.titulo-cartao-centro {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 0 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.titulo-cartao-esquerda {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 0 15px;
+}
+
+
+
+
+.cartao-login .grupo-formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+
+.cartao-login label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+
+
+.cartao-login input {
+    border-radius: 30px;
+    border: none;
+    padding: 10px 14px;
+    font-size: 1rem;
+    width: 50%;
+    min-width: 220px;
+}
+
+
+
+
+.cartao-cadastro .grupo-formulario {
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.cartao-cadastro label {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 150px;
+}
+
+
+.cartao-cadastro input {
+    border-radius: 30px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1rem;
+    width: auto;
+    min-width: 200px;
+}
+
+
+
+.botao {
+    background-color: #fff;
+    color: #004ea8;
+    border: none;
+    border-radius: 22px;
+    padding: 8px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+.duas-colunas {
+    display: grid;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+
+.coluna-imagens img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+
+.coluna-textos .item {
+    margin-bottom: 18px;
+}
+
+
+
+
+.cartao-quiz {
+    background-color: #004ea8;
+    border-radius: 32px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px 30px;
+   
+}
+
+
+.cartao-quiz h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.opcoes-quiz {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.opcoes-quiz li {
+    margin-bottom: 4px;
+}
+
+
+
+
+
+.cartao-gabarito {
+    background-color: #004ea8;
+    border-radius: 32px;
+    max-width: 700px;
+    margin: 25px auto 40px;
+    padding: 25px 30px;
+   
+}
+
+
+
+
+.bloco-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.bloco-item img {
+    width: 240px; 
+    height: auto;
+    border-radius: 0;
+}
+
+
+
+.bloco-item-texto {
+    flex: 1;
+    text-align: left;
+}
+
+
+.bloco-item-texto p {
+    margin-top: 5px;
 }
